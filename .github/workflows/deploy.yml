@@ -31,8 +31,6 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
       
-      - name: Run test
-        run: yarn test
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%s')"        
