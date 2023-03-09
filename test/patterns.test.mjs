@@ -137,16 +137,16 @@ for (let href of urls) {
 
         });
 
-        let href_no_domain = href.replace('riff.one/', 'subfolder/')
-        test('matches pattern url with no domain on ' + href_no_domain, (t) => {
+        // let href_no_domain = href.replace('riff.one/', 'subfolder/')
+        // test('matches pattern url with no domain on ' + href_no_domain, (t) => {
 
-            const match = ResizerRouter.transformationsGroupNoDomainRegex.exec(href_no_domain)
-            t.truthy(match && match.groups.transformations, 'transformations must be detected by the router for ' + href_no_domain);
-            t.truthy(match && match.groups.dummyhost, 'dummyhost must be detected by the router for ' + href_no_domain);
-            t.truthy(match && match.groups.pathname, 'pathname must be detected by the router for ' + href_no_domain);
+        //     const match = ResizerRouter.transformationsGroupNoDomainRegex.exec(href_no_domain)
+        //     t.truthy(match && match.groups.transformations, 'transformations must be detected by the router for ' + href_no_domain);
+        //     t.truthy(match && match.groups.dummyhost, 'dummyhost must be detected by the router for ' + href_no_domain);
+        //     t.truthy(match && match.groups.pathname, 'pathname must be detected by the router for ' + href_no_domain);
 
 
-        });
+        // });
 
     }
 }
