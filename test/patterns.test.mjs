@@ -109,7 +109,7 @@ const urls = [
     "https://resizer.pictures/we_h=210_w=210_sat=0.3/riff.one/dice_200.png",
     "https://resizer.pictures/we_h=210_w=210_sharp=3/riff.one/dice_200.png",
     "https://resizer.pictures/we_h=210_w=210_tint=red/riff.one/dice_200.png",
-    "https://resizer.pictures/webp/riff.one/images/dice.png",
+    // "https://resizer.pictures/webp/riff.one/images/dice.png",
     // 'https://resizer.pictures/auto/deploy.workers.cloudflare.com/favicon.ico'
 ];
 
